@@ -1,0 +1,193 @@
+<head>
+    <script>
+// Initialize collapse button
+$(".button-collapse").sideNav();
+// Initialize collapsible (uncomment the line below if you use the dropdown variation)
+$('.collapsible').collapsible();
+</script>
+<style>
+
+header, main, footer {
+  padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+#slide-out2{
+    margin-top: 88px;
+}
+
+ </style>
+<!-- Material Design Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- Bootstrap core CSS -->
+<link href="http://mdbootstrap.com/live/_doc/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="http://mdbootstrap.com/live/_doc/css/mdb.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+
+<div class="top_nav">
+<!-- Sidebar navigation -->
+<ul id="slide-out" class="side-nav admin-side-nav dark-side-nav">
+<!-- Side navigation links -->
+<ul class="collapsible collapsible-accordion">
+<li><a href="#intro" class="waves-effect waves-light"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#" class="waves-effect waves-light"><i class="fa fa-money"></i> Sales</a></li>
+            <li><a href="#" class="waves-effect waves-light"><i class="fa fa-line-chart"></i> Conversion</a></li>
+            <li><a href="#" class="waves-effect waves-light"><i class="fa fa-users"></i> Website Traffic</a></li>
+            <li><a href="#" class="waves-effect waves-light"><i class="fa fa-search"></i> SEO</a></li>
+            <li><a href="#" class="waves-effect waves-light"><i class="fa fa-share-alt"></i> Social</a></li>
+        </ul>
+        <!--/. Side navigation links -->
+
+    </ul>
+    <!--/. Sidebar navigation -->
+
+    <!--Navbar-->
+    <nav class="double-navbar navbar navbar-fixed-top unique-color z-depth-1" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header pull-left">
+                <!-- SideNav slide-out button -->
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+                <!--/. SideNav slide-out button -->
+
+            </div>
+
+            <!-- Navbar Icons -->
+            <ul class="list-inline pull-right text-center">
+                <li><a href="#" class="waves-effect waves-light" data-toggle="modal" data-target="#contact-form"><i class="fa fa-question"></i><br><span>Help</span></a></li>
+                <li><a href="#" class="waves-effect waves-light" data-toggle="modal" data-target="#contact-form"><i class="fa fa-cogs"></i><br><span>Settings</span></a></li>
+                <li><a href="#" class="waves-effect waves-light" data-toggle="modal" data-target="#contact-form"><i class="fa fa-sign-out"></i><br><span>Logout</span></a></li>
+
+            </ul>
+            <!--/. Navbar Icons -->
+        </div>
+    </nav>
+
+</div>
+
+
+
+
+
+<!-- Sidebar navigation -->
+<ul id="slide-out2" class="side-nav fixed default-side-nav light-side-nav">
+
+    <!-- Logo -->
+    <div class="logo-wrapper waves-light">
+        <a href="#"><img width="300px" height="150px" src="http://mdbootstrap.com/wp-content/uploads/2015/12/mdb-white2.png" class="img-fluid flex-center"></a>
+    </div>
+    <!--/. Logo -->
+
+
+    <!-- Side navigation links -->
+    <ul class="collapsible collapsible-accordion">
+        <li><a class="collapsible-header waves-effect">Click me</a>
+            <div class="collapsible-body">
+                <ul>
+                    <li><a href="#" class="waves-effect">Link</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li><a class="collapsible-header waves-effect">Click me</a>
+            <div class="collapsible-body">
+                <ul>
+                    <li><a href="#" class="waves-effect">Link</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li><a class="collapsible-header waves-effect">Click me</a>
+            <div class="collapsible-body">
+                <ul>
+                    <li><a href="#" class="waves-effect">Link</a>
+                    </li>
+                    <li><a href="#" class="waves-effect">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+
+</ul>
+
+
+
+    <div style="padding-left: 20%; padding-right: 20%">
+
+        <!--Jumbotron-->
+        <div style="border: thin solid blue" class="jumbotron">
+            <h1 class="h1-responsive">News Title</h1>
+            <hr class="m-y-2">
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                attention
+                to featured content or information.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-sm" role="button">Learn more</a>
+            </p>
+        </div>
+        <!--/.Jumbotron-->
+
+        <!--Jumbotron-->
+        <div style="border: thin solid green"  class="jumbotron">
+            <h1 class="h1-responsive">Event Title</h1>
+            <hr class="m-y-2">
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to featured content or information.</p>
+            <p class="lead">
+                <a class="btn btn-success btn-sm" role="button">Learn more</a>
+            </p>
+        </div>
+        <!--/.Jumbotron-->
+
+        <!--Jumbotron-->
+        <div style="border: thin solid purple"  class="jumbotron">
+            <h1 class="h1-responsive">Class Title</h1>
+            <hr class="m-y-2">
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to featured content or information.</p>
+            <p class="lead">
+                <a class="btn btn-secondary btn-sm" role="button">Learn more</a>
+            </p>
+        </div>
+        <!--/.Jumbotron-->
+
+    </div>
+
+
+
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="http://mdbootstrap.com/live/_doc/js/jquery.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="http://mdbootstrap.com/live/_doc/js/bootstrap.min.js"></script>
+
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="http://mdbootstrap.com/live/_doc/js/mdb.min.js"></script>
+
+
+
+
+
+</body>
