@@ -33,6 +33,11 @@
 
     <link href="css/mycss.css" rel="stylesheet">
     <script src="js/myjs.js"></script>
+    <style>
+        body {
+            font-family: "B Mahsa";
+        }
+    </style>
 
 </head>
 
@@ -89,63 +94,52 @@
 <!-- /#wrapper -->
 
 
-<div class="container">
-    <div class="row">
+<div style="direction:  rtl; padding-bottom: 4%" class="col-md-offset-2 col-md-8">
 
-        <!-- Mixins-->
-        <!-- Pen Title-->
-        <div class="pen-title"></div>
+    <div></div>
 
-        <div class="container">
-            <div class="card"></div>
-            <div class="card">
-                <h1 class="title">Login</h1>
-                <form>
-                    <div class="input-container">
-                        <input type="text" id="numin" required="required"/>
-                        <label for="numin">Student Number</label>
-                        <div class="bar"></div>
-                    </div>
-                    <div class="input-container">
-                        <input type="password" id="passin" required="required"/>
-                        <label for="passin">Password</label>
-                        <div class="bar"></div>
-                    </div>
-                    <div class="button-container">
-                        <button><span>Go</span></button>
-                    </div>
-                    <div class="footer"><a href="#">Forgot your password?</a></div>
-                </form>
-            </div>
-            <div class="card alt">
-                <div class="toggle"></div>
-                <h1 class="title">Register
-                    <div class="close"></div>
-                </h1>
-                <form>
-                    <div class="input-container">
-                        <input type="text" id="numup" required="required"/>
-                        <label for="numup">Student Number</label>
-                        <div class="bar"></div>
-                    </div>
-                    <div class="input-container">
-                        <input type="text" id="mail" required="required"/>
-                        <label for="mail">Email</label>
-                        <div class="bar"></div>
-                    </div>
-                    <div class="input-container">
-                        <input type="password" id="passup" required="required"/>
-                        <label for="passup">Password</label>
-                        <div class="bar"></div>
-                    </div>
-                    <div class="button-container">
-                        <button><span>Go</span></button>
-                    </div>
-                </form>
-            </div>
-        </div>
+    <!--Panel-->
+    <div class="card card-block" style="padding: 2%; border: thick solid lightblue">
+        <h3 class="card-title">کلاس حل تمرین مبانی برنامه نویسی</h3>
+        <hr>
+        <p class="card-text">این کلاس جهت آموزش ابتدایی برنامه نویسی و حل تمرین های تقویتی جهت بهبود دانشجویان
+            برگزار شده
+            است و 5 نمره از بیست نمره پایانی را شامل می شود .</p>
     </div>
+    <!--/.Panel-->
+
 </div>
+
+<footer class="card-group"
+        style="direction: rtl; padding-left: 1%; padding-right: 1%; padding-bottom: 1%; padding-top: 5%; background: #fdf7f7">
+    <div class="card" style="padding: 0%">
+        <h2 class="card-header secondary-color white-text">آخرین کلاس ها</h2>
+        <div class="card-block">
+            <p class="card-text">کلاس ۱</p>
+            <p class="card-text">کلاس ۲</p>
+            <p class="card-text">کلاس ۳</p>
+        </div>
+        <a style="width: 50%" class="btn btn-secondary">بیشتر بخونید !</a>
+    </div>
+    <div class="card" style="padding: 0%;">
+        <h2 class="card-header success-color white-text">آخرین رویدادها</h2>
+        <div class="card-block">
+            <p class="card-text">رویداد ۱</p>
+            <p class="card-text">رویداد ۲</p>
+            <p class="card-text">رویداد ۳</p>
+        </div>
+        <a style="width: 50%" class="btn btn-success">بیشتر بخونید !</a>
+    </div>
+    <div class="card" style="padding: 0%">
+        <h2 class="card-header primary-color white-text">آخرین اخبار</h2>
+        <div class="card-block">
+            <p class="card-text">خبر ۱</p>
+            <p class="card-text">خبر ۲</p>
+            <p class="card-text">خبر ۳</p>
+        </div>
+        <a style="width: 50%" class="btn btn-primary">بیشتر بخونید !</a>
+    </div>
+</footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
