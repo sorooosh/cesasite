@@ -24,6 +24,24 @@
         body {
             font-family: "B Mahsa";
         }
+        .myCard {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .myCard:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        img {
+            border-radius: 5px 5px 0 0;
+        }
+
+        .myCard .container {
+            padding: 20px 16px;
+        }
     </style>
 
 </head>
@@ -34,15 +52,13 @@
 <div class="colorgraph"></div>
 <div class="colorgraph"></div>
 
-<div style="padding-top: 5%"></div>
-
 <div id="wrapper">
-    <div class="overlay"></div>
+    <div class="sideoverlay"></div>
     <!-- Sidebar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="padding: 0%">
         <ul class="nav sidebar-nav">
             <li class="sidebar-brand">
-                <a href="#">
+                <a href="index.html">
                     CESA
                 </a>
             </li>
@@ -62,7 +78,7 @@
                 <a href="#">کلاس ها</a>
             </li>
             <li>
-                <a href="#">درباره ما</a>
+                <a href="about.html">درباره ما</a>
             </li>
         </ul>
     </nav>
@@ -80,49 +96,57 @@
 </div>
 <!-- /#wrapper -->
 
-<div style="direction:  rtl; padding-bottom: 3%" class="col-md-offset-2 col-md-8">
-    <h1 style="text-align: right">رویداد ها و اخبار جدید</h1>
-    <hr>
-    <!--Jumbotron-->
-    <div style="border: medium solid lightblue" class="jumbotron">
-        <h1 class="h1-responsive">کلاس حل تمرین مبانی برنامه نویسی (خبر)</h1>
-        <hr class="m-y-2">
-        <p class="lead">این کلاس جهت آموزش ابتدایی برنامه نویسی و حل تمرین های تقویتی جهت بهبود دانشجویان برگزار شده
-            است و 5 نمره از بیست نمره پایانی را شامل می شود .</p>
-        <p class="lead" style="padding-right: 85%">
-            <a class="btn btn-primary btn-sm" role="button">ادامه مطلب</a>
-        </p>
+<div style="direction: rtl" class="row">
+    <div class="col-md-offset-2 col-md-8" style="padding-top: 7%; padding-bottom: 7%">
+        <div style=";direction: rtl" class="row">
+            <div class="col-md-3">
+                <div class="myCard" style="padding: 2%; background: #ffffff">
+                    <div class="view overlay hm-red-strong" style="border-radius: inherit">
+                        <img src="img/statistics.svg" alt="Avatar" style="width:100%">
+                        <div class="mask flex-center">
+                            <p class="white-text">نظرسنجی</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="myCard" style="padding: 2%; background: #ffffff">
+                    <div class="view overlay hm-red-strong" style="border-radius: inherit">
+                        <img src="img/notebook.svg" alt="Avatar" style="width:100%">
+                        <div class="mask flex-center">
+                            <p class="white-text">کلاس ها</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="myCard" style="padding: 2%; background: #ffffff">
+                    <div class="view overlay hm-red-strong" style="border-radius: inherit">
+                        <img src="img/bookshelf.svg" alt="Avatar" style="width:100%">
+                        <div class="mask flex-center">
+                            <p class="white-text">پست ها</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="myCard" style="padding: 2%; background: #ffffff">
+                    <div class="view overlay hm-red-strong" style="border-radius: inherit">
+                        <img src="img/school-material.svg" alt="Avatar" style="width:100%">
+                        <div class="mask flex-center">
+                            <p class="white-text">ایجاد پست</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!--/.Jumbotron-->
-
-    <!--Jumbotron-->
-    <div style="border: medium solid lightgreen" class="jumbotron">
-        <h1 class="h1-responsive">کارگاه لینوکس (رویداد)</h1>
-        <hr class="m-y-2">
-        <p class="lead">تو این کارگاه قراره از تاریخچه و نصب گرفته تا خیلی ترفندهای باحال لینوکس رو دور هم یاد بگیریم...
-            هرگز از دست ندینش!</p>
-        <p class="lead" style="padding-right: 85%">
-            <a class="btn btn-success btn-sm" role="button">ادامه مطلب</a>
-        </p>
-    </div>
-    <!--/.Jumbotron-->
-
-    <!--Jumbotron-->
-    <div style="border: medium solid mediumpurple" class="jumbotron">
-        <h1 class="h1-responsive">کلاس بازی سازی (کلاس)</h1>
-        <hr class="m-y-2">
-        <p class="lead">از ایده و داستان تا ساخت و کدزنی رو قراره تو این کلاس با هم انجام بدیم... با حضور دانشجوهای ارشد
-            دانشگاه خودمون!</p>
-        <p class="lead" style="padding-right: 85%">
-            <a class="btn btn-secondary btn-sm" role="button">ادامه مطلب</a>
-        </p>
-    </div>
-    <!--/.Jumbotron-->
-
 </div>
 
-<footer class="card-group"
-        style="direction: rtl; padding-left: 1%; padding-right: 1%; padding-bottom: 1%; padding-top: 5%; background: #fdf7f7">
+
+
+
+<footer class="card-group" style="direction: rtl; padding-left: 1%; padding-right: 1%; padding-bottom: 1%; padding-top: 5%; background: #fdf7f7">
     <div class="card" style="padding: 0%">
         <h2 class="card-header secondary-color white-text">آخرین کلاس ها</h2>
         <div class="card-block">
@@ -151,6 +175,11 @@
         <a style="width: 50%" class="btn btn-primary">بیشتر بخونید !</a>
     </div>
 </footer>
+
+
+
+
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
