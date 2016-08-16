@@ -97,10 +97,10 @@
 <!-- /#wrapper -->
 
 <div style="direction: rtl" class="row">
-    <div class="col-md-offset-2 col-md-8" style="padding-top: 5%; padding-bottom: 10%">
+    <div class="col-md-offset-2 col-md-8" style="padding-top: 7%; padding-bottom: 7%">
         <div style=";direction: rtl" class="row">
             <div class="col-md-3">
-                <div class="myCard" style="padding: 2%">
+                <div class="myCard" style="padding: 2%; background: #ffffff">
                     <div class="view overlay hm-red-strong" style="border-radius: inherit">
                         <img src="img/statistics.svg" alt="Avatar" style="width:100%">
                         <div class="mask flex-center">
@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="myCard" style="padding: 2%">
+                <div class="myCard" style="padding: 2%; background: #ffffff">
                     <div class="view overlay hm-red-strong" style="border-radius: inherit">
                         <img src="img/notebook.svg" alt="Avatar" style="width:100%">
                         <div class="mask flex-center">
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="myCard" style="padding: 2%">
+                <div class="myCard" style="padding: 2%; background: #ffffff">
                     <div class="view overlay hm-red-strong" style="border-radius: inherit">
                         <img src="img/bookshelf.svg" alt="Avatar" style="width:100%">
                         <div class="mask flex-center">
@@ -130,7 +130,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="myCard" style="padding: 2%">
+                <div class="myCard" style="padding: 2%; background: #ffffff">
                     <div class="view overlay hm-red-strong" style="border-radius: inherit">
                         <img src="img/school-material.svg" alt="Avatar" style="width:100%">
                         <div class="mask flex-center">
