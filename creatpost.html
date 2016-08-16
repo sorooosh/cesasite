@@ -107,25 +107,29 @@
                 </select>
             </div>
             <div class="md-form input-group">
-                <span class="input-group-addon" id="basic-addon1">عنوان</span>
+                <span class="input-group-addon" id="sub">عنوان</span>
                 <input type="text" class="form-control" aria-describedby="basic-addon1">
             </div>
             <div class="row">
                 <form class="col-md-12">
-                    <div class="col-md-12" style="margin: 2%; width: 96%">
+                    <div class="col-md-12" style="margin-bottom: 7%; width: 96%">
                         <!-- image-preview-filename input [CUT FROM HERE]-->
                         <div class="input-group image-preview">
-                            <input type="text" class="form-control image-preview-filename" disabled="disabled"> <!-- don't give a name === doesn't send on POST/GET -->
+                            <input type="text" class="form-control image-preview-filename" disabled="disabled">
+                            <!-- don't give a name === doesn't send on POST/GET -->
                             <span class="input-group-btn">
                                 <!-- image-preview-clear button -->
-                                <button type="button" class="btn btn-link wave-effect wave-light image-preview-clear" style="display:none; text-decoration: none">
-                                    <span class="glyphicon glyphicon-remove"></span> Clear
+                                <button type="button" class="btn btn-link wave-effect wave-light image-preview-clear"
+                                        style="display:none; text-decoration: none">
+                                    <span class="glyphicon glyphicon-remove"></span> پاک کن
                                 </button>
                                 <!-- image-preview-input -->
-                                <div class="btn btn-link wave-effect wave-light image-preview-input" style=" text-decoration: none">
+                                <div class="btn btn-link wave-effect wave-light image-preview-input"
+                                     style=" text-decoration: none">
                                     <span class="glyphicon glyphicon-folder-open"></span>
-                                    <span class="image-preview-input-title">Browse</span>
-                                    <input type="file" accept="image/png, image/jpeg, image/gif" name="input-file-preview"/>
+                                    <span class="image-preview-input-title">عکس</span>
+                                    <input type="file" accept="image/png, image/jpeg, image/gif"
+                                           name="input-file-preview"/>
                                 </div>
                             </span>
                         </div><!-- /input-group image-preview [TO HERE]-->
@@ -137,6 +141,14 @@
                 <script>
                     CKEDITOR.replace('editor1');
                 </script>
+            </div>
+            <div class="md-form input-group" style="width: 45%; float: right">
+                <span class="input-group-addon" id="price">قیمت</span>
+                <input type="text" class="form-control" aria-describedby="basic-addon1">
+            </div>
+            <div class="md-form input-group" style="width: 45%; float: left">
+                <span class="input-group-addon" id="capacity">ظرفیت</span>
+                <input type="text" class="form-control" aria-describedby="basic-addon1">
             </div>
             <button type="button" class="btn btn-primary-outline btn-lg btn-block">پست</button>
         </form>
